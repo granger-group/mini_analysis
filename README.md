@@ -15,6 +15,7 @@ Finally, the mean PSC and CDF of the inter-event intervals and amplitudes are pl
 # Directions
 To run the pipeline, open the "mini_analysis.m" file while the current folder is set to the cell folder you want to analyze
   This .m file is broken up into sections that should be run one at a time:
+  
   --Section 1: Define whether you are detecting mEPSCs or mIPSCs 
   --Section 2: Load in all traces corresponding to which epoch of the recording you want analyzed
   --Section 3: Downsample/Filter the raw data traces and trim out the RC check
